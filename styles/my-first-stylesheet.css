@@ -1,0 +1,35 @@
+/* makes 16px == 1rem */
+html { font-size: 16px;}
+
+
+.amendment-title {
+  color: green;
+  text-align: center;
+}
+.amendment-title:hover {
+  color: red;
+}
+.amendment-body {
+  text-align: center;
+}
+.document-history {
+  background-color: yellow;
+}
+
+/* nested selector - look for p tags in a document history element */
+.document-history p {
+  width: 50%;
+}
+
+#bill-of-rights {
+  color: blue;
+}
+
+.amendment-title::first-letter {
+  font-size: 2em;
+}
+
+/* anything that has class */
+[class] {
+  color: orange;
+}
